@@ -7,5 +7,5 @@ SRC_URI:append = "\
     "
 
 do_configure:append(){
-    cp ${WORKDIR}/distro_bootcmd.env ${S}/board/raspberrypi/rpi/.
+    cp ${WORKDIR}/distro_bootcmd.env ${S}/board/st/stm32mp1/.
 }

@@ -49,7 +49,7 @@ SSTATE_DIR ?= "${TOPDIR}/sstate-cache"
 # You need to select a specific machine to target the build with. There are a selection
 # of emulated machines available which can boot and run in the QEMU emulator:
 #
-MACHINE = "mt-rpi0-w"
+MACHINE = "mt-stm32mp157-dk1"
 
 #
 # Where to place downloads

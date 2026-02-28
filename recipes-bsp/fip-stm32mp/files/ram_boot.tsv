@@ -1,0 +1,5 @@
+#Opt	Id	Name	Type	IP	Offset	Binary
+-	0x01	fsbl-boot	Binary	none	0x0	arm-trusted-firmware/tf-a-stm32mp157d-dk1-opteemin-programmer-usb.stm32
+-	0x03	fip-boot	FIP	none	0x0	fip/fip-stm32mp157d-dk1-opteemin-programmer-usb.bin
+P	0x10	kernel	System	ram0	0xC2000000	kernel/uImage.bin
+P	0x11	dtb	FileSystem	ram0	0xC4000000	kernel/stm32mp157d-dk1.dtb
